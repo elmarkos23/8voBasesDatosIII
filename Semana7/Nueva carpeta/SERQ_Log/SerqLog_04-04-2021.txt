@@ -1,0 +1,103 @@
+LOG SERQ - FECHA: 04-04-2021 07:55:04
+USUARIO: JONATHAN
+EQUIPO: DESKTOP-GMNQ81S
+
+04-04-2021 07:55:04 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+---------------------------------------------------------------------------------------------------------------------------------
+04-04-2021 08:35:30 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+04-04-2021 08:53:20 - Source: .Net SqlClient Data Provider
+Inner:   
+Mensaje: Existe un Producto con el c¾digo de barras ingresado: 7703153016852
+Trace:      en Inventario.frmProductoNuevo.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+04-04-2021 16:39:02 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+04-04-2021 16:39:02 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+04-04-2021 16:39:02 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+04-04-2021 16:39:02 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+04-04-2021 16:39:02 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+04-04-2021 16:39:02 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+04-04-2021 16:39:02 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+04-04-2021 16:39:02 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+04-04-2021 16:39:02 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+04-04-2021 16:39:02 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+04-04-2021 16:39:02 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+04-04-2021 16:39:02 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+04-04-2021 18:48:53 - Source: .Net SqlClient Data Provider
+Inner:   
+Mensaje: Existe un Producto con el c¾digo de barras ingresado: 7862105740297
+Trace:      en Inventario.frmProductoNuevo.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+04-04-2021 18:48:57 - Source: .Net SqlClient Data Provider
+Inner:   
+Mensaje: Existe un Producto con el c¾digo de barras ingresado: 7862105740297
+Trace:      en Inventario.frmProductoNuevo.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+04-04-2021 18:50:23 - Source: .Net SqlClient Data Provider
+Inner:   
+Mensaje: Existe un Producto con el c¾digo de barras ingresado: 7862105740297
+Trace:      en Inventario.frmProductoNuevo.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+04-04-2021 18:50:27 - Source: .Net SqlClient Data Provider
+Inner:   
+Mensaje: Existe un Producto con el c¾digo de barras ingresado: 7862105740297
+Trace:      en Inventario.frmProductoNuevo.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------

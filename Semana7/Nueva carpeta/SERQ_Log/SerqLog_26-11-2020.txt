@@ -1,0 +1,238 @@
+LOG SERQ - FECHA: 26-11-2020 07:14:37
+USUARIO: JONATHAN
+EQUIPO: SUPERECONOMICA
+
+26-11-2020 07:14:37 - Source: System.Drawing
+Inner:   
+Mensaje: C:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+---------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 07:17:24 - Source: System.Drawing
+Inner:   
+Mensaje: C:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 09:37:39 - Source: .Net SqlClient Data Provider
+Inner:   
+Mensaje: Ya existe una marca con la descripci+¦n: JASPHARM
+Trace:      en Inventario.frmMarca.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:10:19 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:10:19 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:10:19 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:10:19 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:10:19 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:10:19 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:10:19 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:10:19 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:10:19 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:10:19 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:10:19 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:10:19 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:37:01 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:37:01 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:37:01 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:37:01 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:37:01 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:37:01 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:37:01 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:37:01 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:37:01 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:37:01 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:37:01 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:37:01 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:44:06 - Source: System.Windows.Forms
+Inner:   
+Mensaje: El valor de '-114.828' no es válido para 'Value'. 'Value' debería estar entre 'Minimum' y 'Maximum'.
+Nombre del parámetro: Value
+Trace:      en System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   en Inventario.frmComprasRecepcionCantidad.nudPVP_ValueChanged(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 10:44:38 - Source: System.Windows.Forms
+Inner:   
+Mensaje: El valor de '-3.4884' no es válido para 'Value'. 'Value' debería estar entre 'Minimum' y 'Maximum'.
+Nombre del parámetro: Value
+Trace:      en System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   en Inventario.frmComprasRecepcionCantidad.nudPVP_ValueChanged(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 11:07:36 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 11:07:36 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 11:07:36 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 11:07:36 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 11:07:36 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 11:07:36 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 11:07:36 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 11:07:36 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 11:07:36 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 11:07:36 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 11:07:36 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 11:07:36 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 14:58:48 - Source: System.Drawing
+Inner:   
+Mensaje: C:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 15:00:04 - Source: System.Drawing
+Inner:   
+Mensaje: C:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+26-11-2020 17:20:23 - Source: System.Drawing
+Inner:   
+Mensaje: C:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,53 @@
+LOG SERQ - FECHA: 09-01-2021 08:02:55
+USUARIO: JONATHAN
+EQUIPO: DESKTOP-GMNQ81S
+
+09-01-2021 08:02:55 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+---------------------------------------------------------------------------------------------------------------------------------
+09-01-2021 08:03:09 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+09-01-2021 15:51:10 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+09-01-2021 16:02:04 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+09-01-2021 19:37:28 - Source: System.Windows.Forms
+Inner:   
+Mensaje: El valor de '-3.6001' no es válido para 'Value'. 'Value' debería estar entre 'Minimum' y 'Maximum'.
+Nombre del parámetro: Value
+Trace:      en System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   en Inventario.frmComprasRecepcionCantidad.nudPVP_ValueChanged(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+09-01-2021 20:14:08 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+09-01-2021 21:07:24 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------

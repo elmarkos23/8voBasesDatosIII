@@ -1,0 +1,46 @@
+LOG SERQ - FECHA: 11-04-2021 07:28:26
+USUARIO: JONATHAN
+EQUIPO: DESKTOP-GMNQ81S
+
+11-04-2021 07:28:26 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+---------------------------------------------------------------------------------------------------------------------------------
+11-04-2021 10:44:38 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+11-04-2021 10:53:40 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+11-04-2021 11:09:18 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+11-04-2021 15:36:19 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+11-04-2021 16:00:57 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------

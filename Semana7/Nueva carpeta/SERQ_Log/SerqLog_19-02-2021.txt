@@ -1,0 +1,118 @@
+LOG SERQ - FECHA: 19-02-2021 09:09:32
+USUARIO: JONATHAN
+EQUIPO: DESKTOP-GMNQ81S
+
+19-02-2021 09:09:32 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+---------------------------------------------------------------------------------------------------------------------------------
+19-02-2021 12:54:15 - Source: System.Windows.Forms
+Inner:   
+Mensaje: El valor de '-3.6004' no es válido para 'Value'. 'Value' debería estar entre 'Minimum' y 'Maximum'.
+Nombre del parámetro: Value
+Trace:      en System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   en Inventario.frmComprasRecepcionCantidad.nudPVP_ValueChanged(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+19-02-2021 12:54:23 - Source: System.Windows.Forms
+Inner:   
+Mensaje: El valor de '-2.88' no es válido para 'Value'. 'Value' debería estar entre 'Minimum' y 'Maximum'.
+Nombre del parámetro: Value
+Trace:      en System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   en Inventario.frmComprasRecepcionCantidad.nudPVP_ValueChanged(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+19-02-2021 13:45:27 - Source: System.Windows.Forms
+Inner:   
+Mensaje: El valor de '-5.2162' no es válido para 'Value'. 'Value' debería estar entre 'Minimum' y 'Maximum'.
+Nombre del parámetro: Value
+Trace:      en System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   en Inventario.frmComprasRecepcionCantidad.nudPVP_ValueChanged(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+19-02-2021 16:30:09 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+19-02-2021 16:38:21 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+19-02-2021 16:38:21 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+19-02-2021 16:38:21 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+19-02-2021 16:38:21 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+19-02-2021 16:38:21 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+19-02-2021 16:38:21 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+19-02-2021 16:38:21 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+19-02-2021 16:38:21 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+19-02-2021 16:38:21 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+19-02-2021 16:38:21 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+19-02-2021 16:38:21 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+19-02-2021 16:38:21 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+19-02-2021 16:52:53 - Source: System.Windows.Forms
+Inner:   
+Mensaje: El valor de '-94.1382' no es válido para 'Value'. 'Value' debería estar entre 'Minimum' y 'Maximum'.
+Nombre del parámetro: Value
+Trace:      en System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   en Inventario.frmComprasRecepcionCantidad.nudPVP_ValueChanged(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+19-02-2021 17:04:08 - Source: System.Windows.Forms
+Inner:   
+Mensaje: El valor de '-0.2394' no es válido para 'Value'. 'Value' debería estar entre 'Minimum' y 'Maximum'.
+Nombre del parámetro: Value
+Trace:      en System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   en Inventario.frmComprasRecepcionCantidad.nudPVP_ValueChanged(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+19-02-2021 17:08:52 - Source: .Net SqlClient Data Provider
+Inner:   
+Mensaje: Existe un Producto con el c¾digo de barras ingresado: 7509546015040
+Trace:      en Inventario.frmProductoNuevo.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------

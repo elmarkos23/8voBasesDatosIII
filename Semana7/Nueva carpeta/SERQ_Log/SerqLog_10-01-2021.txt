@@ -1,0 +1,588 @@
+LOG SERQ - FECHA: 10-01-2021 07:10:45
+USUARIO: JONATHAN
+EQUIPO: DESKTOP-GMNQ81S
+
+10-01-2021 07:10:45 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+---------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 07:10:57 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 15:04:05 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 15:07:27 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 16:04:10 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 20:11:34 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 20:12:27 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 20:13:41 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 20:15:16 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 20:16:49 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 20:17:04 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 20:24:19 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 20:25:19 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 20:28:29 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 20:29:24 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 20:30:48 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 20:31:00 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 20:31:17 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 20:32:26 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 20:33:32 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 20:34:07 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 20:37:55 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 21:09:43 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 21:18:11 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 21:24:46 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 21:26:28 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 21:29:27 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 21:30:18 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 21:30:32 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 21:38:10 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en CrystalDecisions.CrystalReports.Engine.PrintOptions.get_PageContentWidth()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(PrinterSettings printerSettings, PageSettings pageSettings, Boolean reformatReportPageSettings, PrintLayoutSettings layoutSettings)
+   en Caja.frmCierreCaja.funImprimirRecibo()
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 21:38:10 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+10-01-2021 21:38:50 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------

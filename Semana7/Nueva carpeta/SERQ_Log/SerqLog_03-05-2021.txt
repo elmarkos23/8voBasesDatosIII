@@ -1,0 +1,39 @@
+LOG SERQ - FECHA: 03-05-2021 15:28:40
+USUARIO: JONATHAN
+EQUIPO: DESKTOP-GMNQ81S
+
+03-05-2021 15:28:40 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+---------------------------------------------------------------------------------------------------------------------------------
+03-05-2021 18:26:49 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+03-05-2021 19:07:06 - Source: System.Windows.Forms
+Inner:   
+Mensaje: El valor de '-2556.2068' no es válido para 'Value'. 'Value' debería estar entre 'Minimum' y 'Maximum'.
+Nombre del parámetro: Value
+Trace:      en System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   en Inventario.frmComprasRecepcionCantidad.nudPVP_ValueChanged(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+03-05-2021 19:38:03 - Source: System.Windows.Forms
+Inner:   
+Mensaje: El valor de '-0.2048' no es válido para 'Value'. 'Value' debería estar entre 'Minimum' y 'Maximum'.
+Nombre del parámetro: Value
+Trace:      en System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   en Inventario.frmComprasRecepcionCantidad.nudPVP_ValueChanged(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+03-05-2021 21:39:20 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,123 @@
+LOG SERQ - FECHA: 25-01-2021 07:23:44
+USUARIO: JONATHAN
+EQUIPO: DESKTOP-GMNQ81S
+
+25-01-2021 07:23:44 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+---------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 07:23:55 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 15:16:54 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 15:47:49 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 15:52:38 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 19:24:54 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 19:52:19 - Source: .Net SqlClient Data Provider
+Inner:   
+Mensaje: Existe un Producto con el c¾digo de barras ingresado: 7861118470047
+Trace:      en Inventario.frmProductoNuevo.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 19:52:26 - Source: .Net SqlClient Data Provider
+Inner:   
+Mensaje: Existe un Producto con el c¾digo de barras ingresado: 7861118470047
+Trace:      en Inventario.frmProductoNuevo.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 19:52:47 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 19:52:47 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 19:52:47 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 19:52:47 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 19:52:47 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 19:52:47 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 19:52:47 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 19:52:47 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 19:52:47 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 19:52:47 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 19:52:47 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 19:52:47 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+25-01-2021 21:41:09 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------

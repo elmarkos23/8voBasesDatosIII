@@ -1,0 +1,52 @@
+LOG SERQ - FECHA: 22-05-2021 09:40:49
+USUARIO: JONATHAN
+EQUIPO: DESKTOP-GMNQ81S
+
+22-05-2021 09:40:49 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+---------------------------------------------------------------------------------------------------------------------------------
+22-05-2021 10:08:04 - Source: System.Windows.Forms
+Inner:   
+Mensaje: El valor de '-0.444' no es válido para 'Value'. 'Value' debería estar entre 'Minimum' y 'Maximum'.
+Nombre del parámetro: Value
+Trace:      en System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   en Inventario.frmComprasRecepcionCantidad.nudPVP_ValueChanged(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+22-05-2021 18:41:35 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+22-05-2021 18:44:48 - Source: .Net SqlClient Data Provider
+Inner:   
+Mensaje: Existe un Producto con el c¾digo de barras ingresado: 7862105740488
+Trace:      en Inventario.frmProductoNuevo.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+22-05-2021 18:45:09 - Source: .Net SqlClient Data Provider
+Inner:   
+Mensaje: Existe un Producto con el c¾digo de barras ingresado: 7862105740495
+Trace:      en Inventario.frmProductoNuevo.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+22-05-2021 18:46:22 - Source: .Net SqlClient Data Provider
+Inner:   
+Mensaje: Existe un Producto con el c¾digo de barras ingresado: 7862105740471
+Trace:      en Inventario.frmProductoNuevo.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+22-05-2021 18:56:42 - Source: .Net SqlClient Data Provider
+Inner:   
+Mensaje: Existe un Producto con el c¾digo de barras ingresado: 7862105740471
+Trace:      en Inventario.frmProductoNuevo.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+22-05-2021 22:20:50 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,363 @@
+LOG SERQ - FECHA: 20-11-2020 07:17:12
+USUARIO: JONATHAN
+EQUIPO: SUPERECONOMICA
+
+20-11-2020 07:17:12 - Source: System.Drawing
+Inner:   
+Mensaje: C:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+---------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:17:33 - Source: System.Drawing
+Inner:   
+Mensaje: C:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:35:23 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:35:23 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:35:23 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:35:23 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:35:23 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:35:23 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:35:23 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:35:23 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:35:23 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:35:23 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:35:23 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:35:23 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:38:07 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:38:07 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:38:07 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:38:07 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:38:07 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:38:07 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:38:07 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:38:07 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:38:07 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:38:07 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:38:07 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 07:38:07 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 18:21:58 - Source: System.Drawing
+Inner:   
+Mensaje: C:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 18:26:50 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en CrystalDecisions.CrystalReports.Engine.PrintOptions.get_PageContentWidth()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(PrinterSettings printerSettings, PageSettings pageSettings, Boolean reformatReportPageSettings, PrintLayoutSettings layoutSettings)
+   en Caja.frmCuadre.funImprimirRecibo()
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 18:27:19 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): The maximum report processing jobs limit configured by your system administrator has been reached.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: Load report failed.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.EnsureLoadReport()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSourceInternal(Object val, Type type)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(DataTable dataTable)
+   en Caja.frmArqueoCaja.funImprimirRecibo(Int32 intCierreId)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 18:27:32 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): The maximum report processing jobs limit configured by your system administrator has been reached.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: Load report failed.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.EnsureLoadReport()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSourceInternal(Object val, Type type)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(DataTable dataTable)
+   en Caja.frmArqueoCaja.funImprimirRecibo(Int32 intCierreId)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 18:27:54 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): The maximum report processing jobs limit configured by your system administrator has been reached.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: Load report failed.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.EnsureLoadReport()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSourceInternal(Object val, Type type)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(DataTable dataTable)
+   en Caja.frmArqueoCaja.funImprimirRecibo(Int32 intCierreId)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 18:27:55 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): The maximum report processing jobs limit configured by your system administrator has been reached.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: Load report failed.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.EnsureLoadReport()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSourceInternal(Object val, Type type)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(DataTable dataTable)
+   en Caja.frmArqueoCaja.funImprimirReporteGlobal()
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 18:27:56 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): The maximum report processing jobs limit configured by your system administrator has been reached.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: Load report failed.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.EnsureLoadReport()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSourceInternal(Object val, Type type)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(DataTable dataTable)
+   en Caja.frmArqueoCaja.funImprimirReporteGlobal()
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 18:28:07 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): The maximum report processing jobs limit configured by your system administrator has been reached.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: Load report failed.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.EnsureLoadReport()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSourceInternal(Object val, Type type)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(DataTable dataTable)
+   en Caja.frmArqueoCaja.funImprimirReporteGlobal()
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 18:28:07 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): The maximum report processing jobs limit configured by your system administrator has been reached.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: Load report failed.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.EnsureLoadReport()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSourceInternal(Object val, Type type)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(DataTable dataTable)
+   en Caja.frmArqueoCaja.funImprimirReporteGlobal()
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 18:28:07 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): The maximum report processing jobs limit configured by your system administrator has been reached.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: Load report failed.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.EnsureLoadReport()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSourceInternal(Object val, Type type)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(DataTable dataTable)
+   en Caja.frmArqueoCaja.funImprimirReporteGlobal()
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 18:28:08 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): The maximum report processing jobs limit configured by your system administrator has been reached.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: Load report failed.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.EnsureLoadReport()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSourceInternal(Object val, Type type)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(DataTable dataTable)
+   en Caja.frmArqueoCaja.funImprimirReporteGlobal()
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 18:28:32 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): The maximum report processing jobs limit configured by your system administrator has been reached.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: Load report failed.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.EnsureLoadReport()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSourceInternal(Object val, Type type)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(DataTable dataTable)
+   en Caja.frmArqueoCaja.funImprimirRecibo(Int32 intCierreId)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 18:28:34 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): The maximum report processing jobs limit configured by your system administrator has been reached.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: Load report failed.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.EnsureLoadReport()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSourceInternal(Object val, Type type)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(DataTable dataTable)
+   en Caja.frmArqueoCaja.funImprimirReporteGlobal()
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 18:29:00 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): The maximum report processing jobs limit configured by your system administrator has been reached.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: Load report failed.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.EnsureLoadReport()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSourceInternal(Object val, Type type)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(DataTable dataTable)
+   en Caja.frmArqueoCaja.funImprimirRecibo(Int32 intCierreId)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 18:29:30 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): The maximum report processing jobs limit configured by your system administrator has been reached.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: Load report failed.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.EnsureLoadReport()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSourceInternal(Object val, Type type)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(DataTable dataTable)
+   en Caja.frmArqueoCaja.funImprimirRecibo(Int32 intCierreId)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 18:30:10 - Source: System.Drawing
+Inner:   
+Mensaje: C:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 18:31:09 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en CrystalDecisions.CrystalReports.Engine.PrintOptions.get_PageContentWidth()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(PrinterSettings printerSettings, PageSettings pageSettings, Boolean reformatReportPageSettings, PrintLayoutSettings layoutSettings)
+   en Caja.frmAperturarCaja.funImprimirRecibo(clsReporteCaja objMovimiento)
+   en Caja.frmAperturarCaja.mbuGuardar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 18:34:12 - Source: System.Drawing
+Inner:   
+Mensaje: C:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+20-11-2020 21:52:09 - Source: System.Drawing
+Inner:   
+Mensaje: C:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,25 @@
+LOG SERQ - FECHA: 19-12-2020 07:17:17
+USUARIO: JONATHAN
+EQUIPO: DESKTOP-PNN3JS9
+
+19-12-2020 07:17:17 - Source: System.Drawing
+Inner:   
+Mensaje: C:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+---------------------------------------------------------------------------------------------------------------------------------
+19-12-2020 07:18:52 - Source: System.Drawing
+Inner:   
+Mensaje: C:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+19-12-2020 20:17:03 - Source: System.Drawing
+Inner:   
+Mensaje: C:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,74 @@
+LOG SERQ - FECHA: 22-01-2021 07:09:34
+USUARIO: JONATHAN
+EQUIPO: DESKTOP-GMNQ81S
+
+22-01-2021 07:09:34 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+---------------------------------------------------------------------------------------------------------------------------------
+22-01-2021 07:09:45 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+22-01-2021 15:01:24 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+22-01-2021 15:06:03 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+22-01-2021 21:40:33 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en CrystalDecisions.CrystalReports.Engine.PrintOptions.get_PageContentWidth()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(PrinterSettings printerSettings, PageSettings pageSettings, Boolean reformatReportPageSettings, PrintLayoutSettings layoutSettings)
+   en Caja.frmCierreCaja.funImprimirRecibo()
+--------------------------------------------------------------------------------------------------------------------------------------
+22-01-2021 21:40:33 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+22-01-2021 21:42:41 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en CrystalDecisions.CrystalReports.Engine.PrintOptions.get_PageContentWidth()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(PrinterSettings printerSettings, PageSettings pageSettings, Boolean reformatReportPageSettings, PrintLayoutSettings layoutSettings)
+   en Caja.frmCuadre.funImprimirRecibo()
+--------------------------------------------------------------------------------------------------------------------------------------
+22-01-2021 21:43:45 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): The maximum report processing jobs limit configured by your system administrator has been reached.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: Load report failed.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.EnsureLoadReport()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSourceInternal(Object val, Type type)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.SetDataSource(DataTable dataTable)
+   en Caja.frmArqueoCaja.funImprimirRecibo(Int32 intCierreId)
+--------------------------------------------------------------------------------------------------------------------------------------
+22-01-2021 21:46:13 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------

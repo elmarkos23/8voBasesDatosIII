@@ -1,0 +1,11 @@
+LOG SERQ - FECHA: 15-05-2021 09:35:31
+USUARIO: JONATHAN
+EQUIPO: DESKTOP-GMNQ81S
+
+15-05-2021 09:35:31 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+---------------------------------------------------------------------------------------------------------------------------------

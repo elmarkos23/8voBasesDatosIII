@@ -1,0 +1,242 @@
+LOG SERQ - FECHA: 13-01-2021 07:05:00
+USUARIO: JONATHAN
+EQUIPO: DESKTOP-GMNQ81S
+
+13-01-2021 07:05:00 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+---------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 07:05:10 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 09:17:57 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 09:17:57 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 09:17:57 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 09:17:57 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 09:17:57 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 09:17:57 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 09:17:57 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 09:17:57 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 09:17:57 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 09:17:57 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 09:17:57 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 09:17:57 - Source: Inventario
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en Inventario.frmProducto.mgrDatos_CellFormatting(Object sender, DataGridViewCellFormattingEventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 10:29:17 - Source: .Net SqlClient Data Provider
+Inner:   
+Mensaje: Por favor valide su información, cabecera con stock negativo
+Trace:      en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 14:28:06 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 15:41:16 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 15:43:55 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 18:52:35 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 19:02:09 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 19:13:15 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 19:14:17 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 19:15:51 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   System.Runtime.InteropServices.COMException (0x80000000): Se ha alcanzado el límite máximo de tareas de procesamiento de informes configuradas por el administrador del sistema.
+   en CrystalDecisions.ReportAppServer.ClientDoc.ReportClientDocumentClass.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.Open(Object& DocumentPath, Int32 Options)
+   en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+Mensaje: No se ha podido cargar el informe.
+Trace:      en CrystalDecisions.ReportAppServer.ReportClientDocumentWrapper.EnsureDocumentIsOpened()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportClass.Load(String reportName, OpenReportMethod openMethod, Int16 parentJob)
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.Load(String filename)
+   en CrystalDecisions.ReportSource.NonHTTPCachedReportSource.GetReport(RequestContext context, Boolean bAddToCacheWhenCreated)
+   en CrystalDecisions.ReportSource.LocalReportSourceBase.GetAvailableExportFormats(ExportRequestContext reqContext)
+   en CrystalDecisions.Windows.Forms.ViewerDocument.GetAvailableExportFormats()
+   en CrystalDecisions.Windows.Forms.PageView.CreateReportDocument(String rptURI)
+   en CrystalDecisions.Windows.Forms.PageView.CreateNewReportDocument(String pageName)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.CreateReportSource(Object reportSource)
+   en CrystalDecisions.Windows.Forms.CrystalReportViewer.set_ReportSource(Object value)
+   en Inventario.frmManInventarioReporte.InitializeComponent()
+   en Inventario.frmManInventarioReporte..ctor(String strUsuario, DateTime datFecha, String strObservacion, DataTable dtDatos, String strSucursal, String strTipo)
+   en CallSite.Target(Closure , CallSite , Type , String , DateTime , String , DataTable , Object , String )
+   en Inventario.frmManInventario.mbuGrabar_Click(Object sender, EventArgs e)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 19:23:43 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 21:35:02 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 21:35:52 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+13-01-2021 22:04:31 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------

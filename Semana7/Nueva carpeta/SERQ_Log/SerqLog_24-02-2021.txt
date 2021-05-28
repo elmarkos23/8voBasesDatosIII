@@ -1,0 +1,32 @@
+LOG SERQ - FECHA: 24-02-2021 07:50:15
+USUARIO: JONATHAN
+EQUIPO: DESKTOP-GMNQ81S
+
+24-02-2021 07:50:15 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+---------------------------------------------------------------------------------------------------------------------------------
+24-02-2021 13:19:04 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+24-02-2021 15:21:15 - Source: System.Drawing
+Inner:   
+Mensaje: D:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+24-02-2021 22:14:28 - Source: CrystalDecisions.CrystalReports.Engine
+Inner:   
+Mensaje: Referencia a objeto no establecida como instancia de un objeto.
+Trace:      en CrystalDecisions.CrystalReports.Engine.PrintOptions.get_PageContentWidth()
+   en CrystalDecisions.CrystalReports.Engine.ReportDocument.PrintToPrinter(PrinterSettings printerSettings, PageSettings pageSettings, Boolean reformatReportPageSettings, PrintLayoutSettings layoutSettings)
+   en Caja.frmCierreCaja.funImprimirRecibo()
+--------------------------------------------------------------------------------------------------------------------------------------

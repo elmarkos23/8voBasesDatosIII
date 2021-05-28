@@ -1,0 +1,154 @@
+LOG SERQ - FECHA: 14-12-2020 07:15:40
+USUARIO: JONATHAN
+EQUIPO: DESKTOP-PNN3JS9
+
+14-12-2020 07:15:40 - Source: System.Drawing
+Inner:   
+Mensaje: C:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+---------------------------------------------------------------------------------------------------------------------------------
+14-12-2020 07:17:31 - Source: System.Drawing
+Inner:   
+Mensaje: C:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+14-12-2020 13:46:17 - Source: .Net SqlClient Data Provider
+Inner:   
+Mensaje: Unclosed quotation mark after the character string 'P' AND (PRD.PRD_ESTADO=TPR.TPR_ESTADO
+								   AND TPR.TPR_ESTADO=PRU.PRU_ESTADO
+								   AND PRU.PRU_ESTADO=PPC.PPC_ESTADO
+								   AND PPC.PPC_ESTADO=MAR.MAR_ESTADO
+								   AND MAR.MAR_ESTADO=1) 
+						     AND (PRD.PRD_EMP_ID=TPR.TPR_EMP_ID
+								   AND TPR.TPR_EMP_ID=PRU.PRU_EMP_ID
+								   AND PRU.PRU_EMP_ID=PPC.PPC_EMP_ID
+								   AND PPC.PPC_EMP_ID=MAR.MAR_EMP_ID
+								   AND MAR.MAR_EMP_ID=1)
+						     AND (PLO.PLO_EMP_ID=DEI.DEI_EMP_ID
+							      AND DEI.DEI_EMP_ID=INV.INV_EMP_ID
+								  AND INV.INV_EMP_ID=PDE.PDE_EMP_ID
+								  AND PDE.PDE_EMP_ID=1) AND BOG.BOG_FLAG_VENTA=1 GROUP BY PRD.PRD_ID,PRD.PRD_CODIGO_BARRAS,PRU.PRU_ID,PRD.PRD_CODIGO,TPR.TPR_DESCRIPCION,MAR.MAR_DESCRIPCION,INV.INV_EXISTENCIA_RESERVADA,PRU.PRU_FACTOR,UM.UDM_DESCRIPCION,PPC.PPC_PVP,PRD.PRD_IVA,PRD.PRD_CONSEP,PDE.PDE_PORCENTAJE_DESCUENTO,T1.TIP_DESCRIPCION,T2.TIP_DESCRIPCION,INV.INV_ID,BOG.BOG_ID,BOG.BOG_DESCRIPCION,BOG.BOG_UBICACION,PMP.PMP_ID,PRD.PRD_DESCRIPCION,CAT.CAT_DESCRIPCION,INV.INV_EXISTENCIA_ACTUAL,PPC.PPC_ID,PRU2.PRU_FACTOR,PRD.PRD_LOTES,PRD.PRD_CADUCIDAD
+						HAVING SUM(DEI.DEI_CANTIDAD_SALDO) > 0 '.
+Incorrect syntax near 'P' AND (PRD.PRD_ESTADO=TPR.TPR_ESTADO
+								   AND TPR.TPR_ESTADO=PRU.PRU_ESTADO
+								   AND PRU.PRU_ESTADO=PPC.PPC_ESTADO'.
+ SELECT	PRD.PRD_ID,
+		PRD.PRD_CODIGO_BARRAS,
+		PRU.PRU_ID,
+		PRD.PRD_CODIGO,
+		TPR.TPR_DESCRIPCION +' '+ PRD.PRD_DESCRIPCION AS [PRD_DESCRIPCION],
+		MAR.MAR_DESCRIPCION,
+		SUM(DEI.DEI_CANTIDAD_SALDO) / PRU2.PRU_FACTOR AS [CAJAS],
+		SUM(DEI.DEI_CANTIDAD_SALDO) % PRU2.PRU_FACTOR AS [UNIDADES],
+		SUM(DEI.DEI_CANTIDAD_SALDO) AS INV_EXISTENCIA_ACTUAL,
+		INV.INV_EXISTENCIA_RESERVADA,
+		PRU.PRU_FACTOR,
+		UM.UDM_DESCRIPCION,
+		PPC.PPC_PVP,
+		CASE
+			WHEN PRD.PRD_IVA = 1 THEN  CONVERT(DECIMAL(13,4), PPC.PPC_PVP + ((PPC.PPC_PVP *12.00)/100))
+			WHEN PRD.PRD_IVA = 0 THEN  CONVERT(DECIMAL(13,4), PPC.PPC_PVP)
+		END as [PVP_FINAL],
+		CONVERT(DECIMAL(13,4),PDE.PDE_PORCENTAJE_DESCUENTO) AS PPC_PORCENTAJE_DESCUENTO,
+		PRD.PRD_IVA,
+		PRD.PRD_CONSEP,
+		CONVERT(DECIMAL(13,4),((PPC.PPC_PVP * PDE.PDE_PORCENTAJE_DESCUENTO)/100)) AS [VALOR_DESCUENTO],
+		CASE
+		WHEN PRD.PRD_IVA = 1 THEN  CONVERT(DECIMAL(13,4),PPC.PPC_PVP-((PPC.PPC_PVP * PDE.PDE_PORCENTAJE_DESCUENTO)/100)+(((PPC.PPC_PVP-((PPC.PPC_PVP * PDE.PDE_PORCENTAJE_DESCUENTO)/100))*12.00)/100))
+		WHEN PRD.PRD_IVA = 0 THEN  CONVERT(DECIMAL(13,4),(PPC.PPC_PVP-((PPC.PPC_PVP * PDE.PDE_PORCENTAJE_DESCUENTO)/100)))
+		END as [PRECIO_FINAL],
+		ISNULL([dbo].[fun_ptv_valor_caja](PRD.PRD_ID,CASE
+		WHEN PRD.PRD_IVA = 1 THEN  CONVERT(DECIMAL(13,4),PPC.PPC_PVP-((PPC.PPC_PVP * PDE.PDE_PORCENTAJE_DESCUENTO)/100)+(((PPC.PPC_PVP-((PPC.PPC_PVP * PDE.PDE_PORCENTAJE_DESCUENTO)/100))*12.00)/100))
+		WHEN PRD.PRD_IVA = 0 THEN  CONVERT(DECIMAL(13,4),(PPC.PPC_PVP-((PPC.PPC_PVP * PDE.PDE_PORCENTAJE_DESCUENTO)/100)))
+		END),'0.00') AS [PRECIO_CAJA],
+		CONVERT(DECIMAL(13,4), [dbo].[fun_ptv_costo_promedio](PRU.PRU_ID, PPC.PPC_ID, 1, 1)) AS [COSTO],
+		CONVERT(DECIMAL(13,4),((CASE
+			WHEN PRD.PRD_IVA = 1 THEN  CONVERT(DECIMAL(13,4), PPC.PPC_PVP + ((PPC.PPC_PVP *12.00)/100))
+			WHEN PRD.PRD_IVA = 0 THEN  CONVERT(DECIMAL(13,4), PPC.PPC_PVP)
+		END - CONVERT(DECIMAL(13,4),((PPC.PPC_PVP * PDE.PDE_PORCENTAJE_DESCUENTO)/100))) - CONVERT(DECIMAL(13,4), [dbo].[fun_ptv_costo_promedio](PRU.PRU_ID,PPC.PPC_ID, 1, 1)))) AS [RENTABILIDAD],
+		ISNULL(T1.TIP_DESCRIPCION,'NO APLICA') AS [BANDEJA],
+		ISNULL(T2.TIP_DESCRIPCION,'NO APLICA') AS [PERCHA],
+		INV.INV_ID,
+		BOG.BOG_ID,
+		BOG.BOG_DESCRIPCION,
+		BOG.BOG_UBICACION,
+		ISNULL(PMP.PMP_ID,-1) AS [PMP],
+		PRD.PRD_DESCRIPCION as [PRESENTACION],
+		CAT.CAT_DESCRIPCION as [CATEGORIA],
+		'0' AS [DESCUENTO_PROMO],
+		PPC.PPC_ID,
+		PRD.PRD_LOTES,
+		ISNULL(PRD.PRD_CADUCIDAD,0) AS PRD_CADUCIDAD
+ FROM	[BDD_PUNTO_VENTA].[dbo].[PTV_PRECIO_LOTE] AS PLO
+		JOIN PTV_PRODUCTO_PRECIO AS PPC ON PLO.PPC_ID=PPC.PPC_ID
+		JOIN PTV_DETALLE_INVENTARIO AS DEI ON DEI.DEI_ID=PLO.DEI_ID
+		JOIN PTV_INVENTARIO AS INV ON INV.INV_ID=DEI.INV_ID
+		JOIN PTV_PRODUCTO_UNIDAD AS PRU ON PRU.PRU_ID=PPC.PRU_ID
+		JOIN PTV_PRODUCTO_UNIDAD AS PRU2 ON PRU2.PRD_ID=PRU.PRD_ID AND PRU2.PRU_TIPO_UNIDAD='COM'
+		JOIN PTV_PRODUCTO AS PRD ON PRD.PRD_ID=PRU.PRD_ID
+		JOIN PTV_PRODUCTO_DESCUENTO AS PDE ON PDE.PRD_ID=PRD.PRD_ID
+		JOIN PTV_TIPO_PRODUCTO AS TPR ON TPR.TPR_ID=PRD.TPR_ID
+		JOIN PTV_MARCA AS MAR ON MAR.MAR_ID=PRD.MAR_ID
+		JOIN [BDD_PUNTO_VENTA].[dbo].[PTV_CATEGORIA] AS CAT ON CAT.CAT_ID=PRD.CAT_ID 
+		JOIN [BDD_PUNTO_VENTA].[dbo].[PTV_UNIDAD_DE_MEDIDA] AS UM ON UM.UDM_ID=PRU.UDM_ID
+		JOIN [BDD_PUNTO_VENTA].[dbo].[PTV_BODEGA] AS BOG ON BOG.BOG_ID = INV.INV_BOG_ID
+		LEFT JOIN [BDD_GENERAL].[dbo].[GEN_TIPO] AS T1 ON T1.TIP_CODIGO = PRD.PRD_TIPO_BANDEJA
+		LEFT JOIN [BDD_GENERAL].[dbo].[GEN_TIPO] AS T2 ON T2.TIP_CODIGO = PRD.PRD_TIPO_PERCHA
+		LEFT JOIN PTV_PMP AS PMP ON PMP.PRU_ID=INV.PRU_ID AND PMP.PMP_ESTADO=1 AND (PMP.PMP_FECHA_INICIO <= GETDATE()  AND GETDATE() <= PMP.PMP_FECHA_FIN) 
+		
+ WHERE	PRU.PRU_TIPO_UNIDAD='VEN'  AND PRD.PRD_CODIGO_BARRAS ='P'' AND (PRD.PRD_ESTADO=TPR.TPR_ESTADO
+								   AND TPR.TPR_ESTADO=PRU.PRU_ESTADO
+								   AND PRU.PRU_ESTADO=PPC.PPC_ESTADO
+								   AND PPC.PPC_ESTADO=MAR.MAR_ESTADO
+								   AND MAR.MAR_ESTADO=1) 
+						     AND (PRD.PRD_EMP_ID=TPR.TPR_EMP_ID
+								   AND TPR.TPR_EMP_ID=PRU.PRU_EMP_ID
+								   AND PRU.PRU_EMP_ID=PPC.PPC_EMP_ID
+								   AND PPC.PPC_EMP_ID=MAR.MAR_EMP_ID
+								   AND MAR.MAR_EMP_ID=1)
+						     AND (PLO.PLO_EMP_ID=DEI.DEI_EMP_ID
+							      AND DEI.DEI_EMP_ID=INV.INV_EMP_ID
+								  AND INV.INV_EMP_ID=PDE.PDE_EMP_ID
+								  AND PDE.PDE_EMP_ID=1) AND BOG.BOG_FLAG_VENTA=1 GROUP BY PRD.PRD_ID,PRD.PRD_CODIGO_BARRAS,PRU.PRU_ID,PRD.PRD_CODIGO,TPR.TPR_DESCRIPCION,MAR.MAR_DESCRIPCION,INV.INV_EXISTENCIA_RESERVADA,PRU.PRU_FACTOR,UM.UDM_DESCRIPCION,PPC.PPC_PVP,PRD.PRD_IVA,PRD.PRD_CONSEP,PDE.PDE_PORCENTAJE_DESCUENTO,T1.TIP_DESCRIPCION,T2.TIP_DESCRIPCION,INV.INV_ID,BOG.BOG_ID,BOG.BOG_DESCRIPCION,BOG.BOG_UBICACION,PMP.PMP_ID,PRD.PRD_DESCRIPCION,CAT.CAT_DESCRIPCION,INV.INV_EXISTENCIA_ACTUAL,PPC.PPC_ID,PRU2.PRU_FACTOR,PRD.PRD_LOTES,PRD.PRD_CADUCIDAD
+						HAVING SUM(DEI.DEI_CANTIDAD_SALDO) > 0 
+Trace:      en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   en Datos.SqlData.Reader(String connectionString, String spname, Int32 timeout, SqlParameter[] pars)
+   en VentasLogica.clsProducto.funSelectPorParametro(String strSentencia, String strValor, Int32 intIdEmpresa, Int32 intIdEmpresaPadre, Int32 intIdConvenio, Decimal decImpuestoIva, Int32 intIdBodega, Int32 intStock)
+   en Ventas.frmPuntoVenta.funCargarProducto(String Sentencia, String Valor, Int32 intIdEmpresa)
+--------------------------------------------------------------------------------------------------------------------------------------
+14-12-2020 15:10:09 - Source: System.Drawing
+Inner:   
+Mensaje: C:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+14-12-2020 15:11:00 - Source: System.Drawing
+Inner:   
+Mensaje: C:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
+14-12-2020 21:56:10 - Source: System.Drawing
+Inner:   
+Mensaje: C:\Gema.Pos\IMAGENES\IMG
+Trace:      en System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+   en System.Drawing.Image.FromFile(String filename)
+   en QXRetail.frmMenu.funCargarMenu(Boolean blnHabilitar)
+--------------------------------------------------------------------------------------------------------------------------------------
